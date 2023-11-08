@@ -1,0 +1,67 @@
+.ubicacion {
+	padding-bottom: 4rem;
+}
+
+.ubicacion-titulo {
+	font-size: 1.7rem;
+	font-weight: 300;
+	text-align: center;
+	padding-top: 4rem;
+	padding-bottom: 2.5rem;
+}
+
+.ubicacion-contenido {
+	display: flex;
+	justify-content: space-around;
+}
+
+.calle {
+	margin-bottom: 1rem;
+}
+
+.horarios h4 {
+	font-size: 1.1rem;
+	text-align: center;
+	margin-top: 0;
+}
+
+.horario-semana {
+	display: flex;
+}
+
+.entre-semana {
+	margin-right: 5rem;
+}
+
+.direccion {
+	margin-left: 5%;
+}
+
+.horarios {
+	padding-left: 1rem;
+}
+
+/* MAPA */
+.Mapa {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 0.7rem;
+}
+
+@media (max-width: 426px) {
+	.entre-semana {
+		margin-right: 0.8rem;
+	}
+
+	.direccion {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		justify-content: center;
+		margin-left: 1%;
+	}
+
+	.horarios {
+		text-align: center;
+	}
+}

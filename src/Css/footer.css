@@ -1,0 +1,30 @@
+.footer-contenedor {
+	text-align: center;
+	background-color: #536e78a6;
+	color: #ffffff9e;
+}
+
+.creador {
+	padding-top: 2rem;
+}
+
+.copyright {
+	padding-top: 4rem;
+	padding-bottom: 1rem;
+}
+
+.creador .p1 {
+	font-size: 12px;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.creador .p2 {
+	font-size: 1.25rem;
+}
+
+@media (max-width: 426px) {
+	.copyright {
+		padding-top: 3rem;
+		padding-bottom: 1rem;
+	}
+}

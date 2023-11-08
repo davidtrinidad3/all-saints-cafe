@@ -1,0 +1,120 @@
+.menu {
+	display: flex;
+	margin-top: 145px;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+
+.menu__contenido {
+	width: 70%;
+}
+
+.menu__contenido .titulo {
+	font-size: 2.5rem;
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 2.5rem;
+}
+
+.menu__contenido-1 {
+	display: inline-flex;
+	border: 1px solid #000;
+	background: transparent;
+	padding: 10px;
+	overflow: hidden;
+}
+
+.menu__contenido-2 {
+	display: flex;
+	border: 1px solid #000;
+	background: transparent;
+	padding: 10px;
+	overflow: hidden;
+}
+
+.menu article {
+	padding: 20px;
+}
+
+.menu .categoria {
+	font-size: 1.4rem;
+	font-weight: 600;
+	margin-bottom: 40px;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.menu .platillo {
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+	border-bottom: 4px dotted #000;
+	overflow: hidden;
+}
+
+.menu .nombre {
+	font-size: 1.25rem;
+	margin-bottom: 15px;
+	float: left;
+}
+
+.menu .precio {
+	font-size: 1.25rem;
+	margin-bottom: 15px;
+	float: right;
+}
+
+.menu .descripcion {
+	font-size: 1rem;
+	color: #676767;
+	clear: both;
+}
+
+@media (max-width: 1024px) {
+	.menu__contenido {
+		width: 94%;
+	}
+}
+
+@media (max-width: 768px) {
+	.menu {
+		margin-top: 10px;
+	}
+
+	.menu__contenido-1 {
+		padding: 8px;
+	}
+
+	.menu__contenido-2 {
+		padding: 0px;
+	}
+
+	.menu article {
+		padding: 11px;
+	}
+
+	.menu .categoria {
+		font-size: 1.1rem;
+	}
+
+	.menu .nombre {
+		font-size: 0.8rem;
+	}
+
+	.menu .precio {
+		font-size: 0.8rem;
+	}
+
+	.menu .descripcion {
+		font-size: 0.65rem;
+	}
+}
+
+@media (max-width: 426px) {
+	.menu {
+		margin-top: -40px;
+	}
+
+	.menu__contenido-2 {
+		flex-direction: column;
+	}
+}
