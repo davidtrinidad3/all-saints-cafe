@@ -54,7 +54,7 @@ function Coffee() {
 						<div className="acerca-de__img">
 							<img
 								className="aceca-de__foto"
-								src="/public/img/acerca-de2.jpg"
+								src="public/img/acerca-de2.jpg"
 								alt=""
 							/>
 						</div>
