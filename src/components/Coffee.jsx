@@ -158,10 +158,10 @@ function Coffee() {
 
 				<section className="galeria" id="galeria">
 					<div className="galeria-fotos">
-						<img className="galeria-img" src="/img/1.jpg" alt="" />
-						<img className="galeria-img" src="img/2.jpg" alt="" />
-						<img className="galeria-img" src="/3.jpg" alt="" />
-						<img className="galeria-img" src="4.jpg" alt="" />
+						<img className="galeria-img" src="/public/img/1.jpg" alt="" />
+						<img className="galeria-img" src="/public/img/2.jpg" alt="" />
+						<img className="galeria-img" src="/public/img/3.jpg" alt="" />
+						<img className="galeria-img" src="/public/img/4.jpg" alt="" />
 						<img className="galeria-img" src="/public/img/5.jpg" alt="" />
 						<img className="galeria-img" src="/public/img/6.jpg" alt="" />
 						<img className="galeria-img" src="/public/img/7.jpg" alt="" />
